@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import FoiaTooltip from './foia_tooltip';
-
 /**
  * README!: The assumption of this file is that it is a 'good enough'
  * holding place for the section two markup at the moment.  This should all be updated
  * as we break the markup into better components.
  */
-
 class FoiaReportFormSectionOne extends React.Component {
   render () {
     return (
