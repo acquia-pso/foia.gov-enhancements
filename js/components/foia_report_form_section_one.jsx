@@ -32,7 +32,7 @@ class FoiaReportFormSectionOne extends React.Component {
                </span>
             </div>
             <div className="form-group field use-dark-icons usa-grid">
-              <a href="#"><span className="icon-plus " /></a><p className="usa-alert-text"><a href="#"><span>Add Another Agency or Component<span /></span></a></p>
+              <a href="#"><span className="icon-plus"></span><p className="usa-alert-text">Add Another Agency or Component</p></a>
             </div>
           </fieldset>
         </div>
