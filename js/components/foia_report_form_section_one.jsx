@@ -37,7 +37,7 @@ class FoiaReportFormSectionOne extends React.Component {
           </fieldset>
         </div>
         <div className="clear">&nbsp;</div>
-          <div className="form-group usa-width-one-half">
+          <div className="form-group usa-width-one-half visually-hidden">
             {/* Begin Modal Inner HTML */}
             <div className="form-group field">
               <h3 className="sans">Select Agencies or Components</h3>
@@ -59,8 +59,8 @@ class FoiaReportFormSectionOne extends React.Component {
                   </ul>
                   <div className="form-group">
                     <ul className="inline-list">
-                      <li><a href="#"><p>Select All</p></a></li> |
-                      <li><a href="#"><p>Select None</p></a></li>
+                      <li><a href="#">Select All</a></li> |
+                      <li><a href="#">Select None</a></li>
                     </ul>
                   </div>
                     <button className="usa-button usa-button-primary-alt usa-button-small" type="submit">Submit</button>
